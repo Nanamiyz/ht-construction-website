@@ -117,7 +117,7 @@ npx serve
 
 ## 👤 Developer
 
-Developed for HT Construction Ltd by [Your Name]
+Developed for HT Construction Ltd by [Nanami Zhan]
 
 ---
 
