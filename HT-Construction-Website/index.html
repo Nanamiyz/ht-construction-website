@@ -157,11 +157,15 @@
   }
   .project-card:hover{ transform:scale(1.02); box-shadow:0 10px 40px rgba(30,58,138,.25); }
   .project-img-1{
-    /* 先放图片，再叠加一个到底部的渐变，保证文字可读 */
     background-image:
+      /* 底部加一层渐变，保证标题可读；数值可按喜好调 */
       linear-gradient(to top, rgba(30,58,138,0.55) 20%, rgba(0,0,0,0) 60%),
-      url('/images/project_cbd.jpg');
+      url('/images/b3.png');         /* b3.png 放在 images 目录下 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
+
 
   .project-image-2{ background:linear-gradient(135deg,#60a5fa 0%,#2563eb 100%); }
   .project-image-3{ background:linear-gradient(135deg,#93c5fd 0%,#3b82f6 100%); }
@@ -300,7 +304,7 @@
     <p class="section-subtitle">Quality Projects, Proven Excellence</p>
     <div class="projects-grid">
       <div class="project-card">
-        <div class="/images/B3.png"></div>
+        <div class="project-image project-img-1"></div>
         <div class="project-overlay">
           <h3 class="project-title">Auckland CBD Commercial Complex</h3>
           <p class="project-description">250,000 square meters mixed-use development combining office, retail, and hospitality spaces</p>
