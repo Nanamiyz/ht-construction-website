@@ -176,8 +176,22 @@
   }
 
 
-  .project-image-2{ background:linear-gradient(135deg,#60a5fa 0%,#2563eb 100%); }
-  .project-image-3{ background:linear-gradient(135deg,#93c5fd 0%,#3b82f6 100%); }
+  .project-image-2{
+    background-image:
+      linear-gradient(to top, rgba(30,58,138,0.55) 20%, rgba(0,0,0,0) 60%),
+      url('/images/B4.png');         /* b4.png 放在 images 目录下 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  .project-image-3{
+    background-image:
+      linear-gradient(to top, rgba(30,58,138,0.55) 20%, rgba(0,0,0,0) 60%),
+      url('/images/B5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     }
   .project-overlay{
     position:absolute; bottom:0; left:0; right:0;
     background:linear-gradient(to top, rgba(30,58,138,.95), transparent);
@@ -330,7 +344,7 @@
         <div class="project-image project-image-3"></div>
         <div class="project-overlay">
           <h3 class="project-title">Community Cultural Center</h3>
-          <p class="project-description">Modern cultural facility including library, theater, and exhibition spaces</p>
+          <p class="project-description">Modern cultural facility including exhibition spaces</p>
         </div>
       </div>
     </div>
